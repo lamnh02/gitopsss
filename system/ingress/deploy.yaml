@@ -434,7 +434,6 @@ spec:
         - --validating-webhook=:8443
         - --validating-webhook-certificate=/usr/local/certificates/cert
         - --validating-webhook-key=/usr/local/certificates/key
-        - --allow-snippet-annotations=true
         env:
         - name: POD_NAME
           valueFrom:
